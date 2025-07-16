@@ -1,47 +1,34 @@
-# 🎯 Lead Score Case Study | Predicting Lead Conversion with Logistic Regression
+# 📞 Telecom Churn Prediction | Customer Retention Case Study
 
-This project focuses on building a predictive model to identify potential leads that are most likely to convert into paying customers. The goal is to help the business optimize its sales efforts by assigning a conversion score to each lead.
-
-The analysis includes a complete end-to-end approach — from cleaning and preprocessing raw CRM data to building and evaluating a logistic regression model.
+This project focuses on predicting customer churn for a telecom company using historical usage data and customer demographics. The goal is to identify high-risk customers and support proactive retention strategies.
 
 ---
 
 ## 📁 Repository Contents
 
-- `lead_score_analysis.ipynb` – Jupyter Notebook with the full data science workflow
-- `leads_data.csv` – Raw dataset used for modeling
+- `telecom_churn_analysis.ipynb` – Jupyter Notebook with full pipeline: EDA, feature engineering, model building, and evaluation  
+- `telecom_churn_data.csv` – Cleaned dataset used for analysis and modeling
 
 ---
 
 ## 🧠 Key Highlights
 
-- Business understanding and data interpretation
-- Data cleaning, imputation, and encoding
-- Feature selection using RFE
-- Model building using Logistic Regression
-- Evaluation using metrics like accuracy, ROC-AUC, precision, and recall
-- Model calibration and cutoff optimization
-- Actionable insights for improving lead conversion strategy
+- Data cleaning and imputation  
+- EDA to understand churn drivers  
+- Feature engineering from categorical and numeric variables  
+- Logistic Regression model built for interpretability  
+- Model evaluation using accuracy, ROC-AUC, precision, and recall  
+- Business insights for churn reduction
 
 ---
 
-## 🧰 Tools & Libraries
+## 🎯 Objective
 
-- Python, Pandas, NumPy
-- Scikit-learn
-- Matplotlib, Seaborn
-
----
-
-## 🎓 Objective
-
-To enable the sales team to prioritize "hot" leads by assigning conversion scores, improving conversion rates from ~30% to ~80%.
+To build a predictive model that identifies customers likely to churn, enabling targeted interventions and retention campaigns.
 
 ---
 
 ## ✅ Outcome
 
-A transparent, interpretable, and highly practical classification model ready for integration with CRM systems to streamline sales targeting.
-
----
+A transparent churn prediction model with actionable insights — empowering telecom providers to improve customer lifetime value through data-driven decisions.
 
